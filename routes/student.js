@@ -7,7 +7,7 @@ router.get("/students", (req, res) => {
   studentcontroller.getStudent(req, res);
 });
 
-router.post("add/student", (req, res) => {
+router.post("/add/student", (req, res) => {
   studentcontroller.addStudent(req, res);
 });
 
